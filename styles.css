@@ -69,8 +69,8 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 30px;
+  border: 3px solid yellow;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -205,3 +205,15 @@ a.social:hover {
 
 }
 
+/* Misc overwrite styling */
+
+.background p::first-letter{
+  font-size: 32px;
+  color: #fff;
+  background-color: #444;
+  float: left;
+  padding: 5px 15px;
+  margin: 0 15px 15px 0;
+  border-radius: 6px;
+
+}
